@@ -5,6 +5,10 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+         transitionDuration: {
+        '1200': '1200ms',
+        '1800': '1800ms',
+      },
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
